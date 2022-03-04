@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+canon&display=swap');
+body{
+    font-family: 'IM Fell French Canon', serif;
+
+}
+#showcase {
+    background-image: url("Images 2/header.jpg");
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+@media (min-width: 992px){
+    .card-text {
+        height: 90px;
+    }
+}
+@media (min-width: 1400px){
+    .card-text {
+        height: 70px;
+    }
+}
